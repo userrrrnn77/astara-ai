@@ -9,7 +9,7 @@ export function EmptyState() {
       <div>
         <h2 className="text-lg font-semibold text-gray-1000">Astara AI</h2>
         <p className="mt-1 text-sm text-gray-700">
-          Draft → Critique → Finalize. Mulai percakapan baru di bawah.
+          Mulai percakapan baru di bawah, dengan Generative UI.
         </p>
       </div>
     </div>
