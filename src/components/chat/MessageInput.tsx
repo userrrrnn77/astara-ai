@@ -42,7 +42,7 @@ export function MessageInput() {
           </div>
         )}
 
-        <div className="flex items-end gap-2 rounded-3xl px-3 py-2 shadow-sm transition-colors sm:px-4">
+        <div className="flex items-end gap-2 rounded-3xl border border-gray-alpha-400 bg-gray-100 px-3 py-2 shadow-sm transition-colors sm:px-4">
           <textarea
             ref={textareaRef}
             value={value}
