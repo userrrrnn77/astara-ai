@@ -31,7 +31,7 @@ export function MessageInput() {
   }
 
   return (
-    <div className="border-t border-gray-alpha-300 bg-background-100 px-3 py-3 sm:px-4 sm:py-4">
+    <div className="px-3 py-3 sm:px-4 sm:py-4">
       <div className="mx-auto w-full max-w-3xl">
         {error && (
           <div className="mb-2 flex items-center justify-between rounded-[8px] bg-red-100 px-3 py-1.5 text-xs text-red-700">
@@ -42,7 +42,7 @@ export function MessageInput() {
           </div>
         )}
 
-        <div className="flex items-end gap-2 rounded-3xl border border-gray-alpha-400 bg-gray-100 px-3 py-2 shadow-sm transition-colors sm:px-4">
+        <div className="flex items-end gap-2 rounded-3xl px-3 py-2 shadow-sm transition-colors sm:px-4">
           <textarea
             ref={textareaRef}
             value={value}
